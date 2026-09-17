@@ -36,8 +36,8 @@ vid normala inmatningar. Om du vill så kan du använda mönstret valideraren fr
 
 ## In Progress
 
+## Done
+
 #### Klona repot
 <!-- id: task-1789371224632-115 -->
 Klona / forka repot och börja sedan jobba med materialet
-
-## Done
