@@ -1,0 +1,1 @@
+# du ska hjälpa ted på tävlig hur kan du få han att vinna genom att välja hans frukost, hur han tar sig dit, upvärmning, energi innan lop, retta sinna motstondare, hur han ska spurta 
