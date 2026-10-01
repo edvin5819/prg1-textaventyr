@@ -23,7 +23,7 @@ if transport.lower() == "fråga om skjuts":
     upvärmnining = "inte alls"
     input ("du behövde vänta på mamma så du kom sent och har ingen tid att värma upp")
 elif transport.lower() == "cykla":
-    upvärmnining = input ("du kom i bra tid så då kan du välja om du ska värma upp en timme tjugo minuter eller inte alls. hur länge värmer du upp?")
+    upvärmnining = input ("du kom i bra tid så då kan du välja om du ska värma upp (en timme), (tjugo minuter) eller (inte alls). hur länge värmer du upp?")
 else:
     transport = input ("du måste (cykla) eller (fråga om skjuts) annars kommer du inte till tävlingen vad väljer du?")
     if transport.lower() == "fråga om skjuts":
@@ -44,7 +44,7 @@ elif upvärmnining.lower() == "tjugo minuter":
 elif upvärmnining.lower() == "ingen alls":
     print("du sparar altså all hans energi")
     snabhet = snabhet * 0,9
-energi = input ("du måste få i dig energi innan tävlingen så du måste välja om ted ska ta en (energibar) en (energidricka) eller en (munk) vad ska han ha?")
+energi = input ("du måste få i dig energi innan tävlingen så du måste välja om ted ska ta en (energibar), en (energidricka) eller en (munk) vad ska han ha?")
 if energi.lower() == "energibar":
     print ("bra val")
     snabhet = snabhet * 1.05
@@ -73,11 +73,11 @@ else:
     print (f" du sprang på {tid / 100}sekunder") 
 if tid/100 < 10.5:
         print (f"bra coachat {namn}. ted van!!!!")
-elif tid/100 < 11:
+elif tid/100 < 11.0:
         print (f"bra coachat {namn}. ted kom på andra plats!!")
 elif tid/100 < 11.5:
         print (f"bra coachat {namn}. ted kom trea!")
-elif tid/100 < 12.:
+elif tid/100 < 12.0:
         print ("helt okej ted kom på fjärde plats!")
 elif tid/100 < 12.5:
         print ("ganska dåligt ted kom fema och näst sist")
