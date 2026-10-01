@@ -8,10 +8,6 @@
 
 ## In Progress
 
-#### Inga kraschar
-<!-- id: task-1789370399886-49 -->
-vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
-
 ## Done
 
 #### Klona repot
@@ -29,6 +25,10 @@ spelarens namn används i minst tre print()-satser
 #### Spelarnamn
 <!-- id: task-1789370256358-0 -->
 programmet frågar efter spelarens namn och lagrar det i en variabel
+
+#### Inga kraschar
+<!-- id: task-1789370399886-49 -->
+vid normala inmatningar. Om du vill så kan du använda mönstret valideraren från kurswebben
 
 #### Skriv berättelsen
 <!-- id: task-1789371029039-86 -->

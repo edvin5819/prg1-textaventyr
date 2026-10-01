@@ -20,7 +20,7 @@ else:
         exit()
 transport = input ("hur ska du ta dig till tävlingen ska du (cykla) eller (fråga om skjuts)?")
 if transport.lower() == "fråga om skjuts":
-    upvärmning = "inte alls"
+    upvärmnining = "inte alls"
     input ("du behövde vänta på mamma så du kom sent och har ingen tid att värma upp")
 elif transport.lower() == "cykla":
     upvärmnining = input ("du kom i bra tid så då kan du välja om du ska värma upp en timme tjugo minuter eller inte alls. hur länge värmer du upp?")
